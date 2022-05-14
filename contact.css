@@ -1,0 +1,24 @@
+.container-contact {
+	color: black;
+	-webkit-text-stroke-color: rgb(64, 58, 62);
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-fill-color: grey;
+	text-shadow: 3px 4px #667779;
+	font-size: 40px;
+	margin-top: 100px;
+}
+
+.container-mail {
+	margin-top: 100px;
+	font-size: 20px;
+	color: #667779;
+}
+
+.photo {
+	margin-top: 100px;
+	width: 50px;
+}
+
+.link {
+	border-radius: 20px;
+}

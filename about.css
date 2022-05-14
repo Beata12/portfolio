@@ -1,0 +1,204 @@
+.main-mobile {
+	display: flex;
+}
+
+.main-desktop {
+	display: none;
+}
+
+.first-child {
+	display: flex;
+	flex-direction: column;
+}
+
+.personal-information {
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+.perosnal-info {
+	margin: 20px 20px;
+	font-size: 18px;
+}
+
+h1 {
+	font-size: 50px;
+	padding-top: 10px;
+	color: black;
+	-webkit-text-stroke-color: rgb(125, 113, 113);
+	-webkit-text-stroke-width: 3px;
+	-webkit-text-fill-color: rgb(255, 255, 255);
+}
+
+.second-child {
+	text-align: center;
+}
+.photo-contact {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 250px;
+	height: 250px;
+	border: solid 5px transparent;
+	border-radius: 50%;
+	background-image: linear-gradient(white, white),
+		linear-gradient(120deg, #87c4e8, #f77e9a);
+	background-origin: border-box;
+	background-clip: content-box, border-box;
+}
+
+@media only screen and (min-width: 768px) {
+	.main-mobile {
+		display: none;
+	}
+
+	.main-desktop {
+		display: flex;
+		flex-direction: column;
+		padding-right: 50px;
+		padding-left: 50px;
+	}
+
+	.container-information {
+		display: flex;
+		flex-direction: row;
+		margin-top: 30px;
+		align-items: center;
+	}
+	.container-photo {
+		padding-left: 10px;
+		padding-bottom: 10px;
+	}
+
+	.container-aboutme {
+		padding-right: 20px;
+		padding-bottom: 10px;
+	}
+
+	.perosnal-info {
+		font-size: 25px;
+		color: rgb(125, 113, 113);
+	}
+
+	.photo-contact {
+		width: 300px;
+		height: 300px;
+		border-radius: 120px;
+	}
+
+	h1 {
+		font-size: 50px;
+		color: black;
+		-webkit-text-stroke-color: rgb(125, 113, 113);
+		-webkit-text-stroke-width: 4px;
+		-webkit-text-fill-color: rgb(255, 255, 255);
+	}
+
+	.personal-information {
+		font-size: 35px;
+	}
+}
+
+@media only screen and (min-width: 1100px) {
+	.main-mobile {
+		display: none;
+	}
+
+	.main-desktop {
+		display: flex;
+		flex-direction: column;
+		padding-right: 100px;
+		padding-left: 100px;
+	}
+
+	.container-information {
+		display: flex;
+		flex-direction: row;
+		margin-top: 35px;
+		align-items: center;
+	}
+	.container-photo {
+		padding-left: 20px;
+		padding-bottom: 20px;
+	}
+
+	.container-aboutme {
+		padding-right: 20px;
+		padding-bottom: 20px;
+	}
+
+	.perosnal-info {
+		font-size: 20px;
+		color: rgb(125, 113, 113);
+	}
+
+	.photo-contact {
+		width: 300px;
+		height: 300px;
+		border-radius: 100px;
+	}
+
+	h1 {
+		font-size: 40px;
+		color: black;
+		-webkit-text-stroke-color: rgb(125, 113, 113);
+		-webkit-text-stroke-width: 2px;
+		-webkit-text-fill-color: rgb(255, 255, 255);
+	}
+
+	.personal-information {
+		font-size: 28px;
+	}
+}
+
+@media only screen and (min-width: 1300px) {
+	.main-mobile {
+		display: none;
+	}
+
+	.main-desktop {
+		display: flex;
+		flex-direction: column;
+		padding-right: 150px;
+		padding-left: 150px;
+	}
+
+	.container-information {
+		display: flex;
+		flex-direction: row;
+		margin-top: 50px;
+		align-items: center;
+	}
+
+	.container-photo {
+		padding-left: 50px;
+		padding-bottom: 50px;
+	}
+
+	.container-aboutme {
+		padding-right: 50px;
+		padding-bottom: 50px;
+	}
+
+	.perosnal-info {
+		font-size: 30px;
+		color: rgb(125, 113, 113);
+	}
+
+	.photo-contact {
+		width: 500px;
+		height: 500px;
+		border-radius: 100px;
+	}
+
+	h1 {
+		font-size: 70px;
+		color: black;
+		-webkit-text-stroke-color: rgb(125, 113, 113);
+		-webkit-text-stroke-width: 4px;
+		-webkit-text-fill-color: rgb(255, 255, 255);
+	}
+
+	.personal-information {
+		font-size: 45px;
+	}
+}
