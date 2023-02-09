@@ -22,3 +22,7 @@
 .link {
 	border-radius: 20px;
 }
+
+.main-container {
+	height: 100vh;
+}
