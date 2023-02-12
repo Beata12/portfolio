@@ -1,4 +1,7 @@
-.container-contact {
+.contact-container {
+	height: 100vh;
+}
+.contact-text {
 	color: black;
 	-webkit-text-stroke-color: rgb(64, 58, 62);
 	-webkit-text-stroke-width: 1px;
@@ -23,6 +26,6 @@
 	border-radius: 20px;
 }
 
-.main-container {
-	height: 100vh;
+.icon-gmail {
+	width: 20px;
 }
