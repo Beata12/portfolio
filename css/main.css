@@ -20,6 +20,7 @@ h2 {
 .description {
 	font-size: 30px;
 	color: #667779;
+	margin: 8px;
 }
 
 .photo-main {
@@ -39,7 +40,7 @@ h2 {
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
-	font-size: 40px;
+	font-size: 30px;
 	margin: 50px;
 	border-radius: 30px;
 }

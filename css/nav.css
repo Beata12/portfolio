@@ -62,10 +62,12 @@ body {
 }
 
 .nav-link {
-	text-decoration: none;
 	color: rgb(125, 113, 113);
 	font-size: 40px;
 	line-height: 100px;
+}
+a:link {
+	text-decoration: none;
 }
 
 a:visited {
