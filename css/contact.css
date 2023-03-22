@@ -29,3 +29,21 @@
 .icon-gmail {
 	width: 20px;
 }
+
+.mobileContact {
+	display: block;
+}
+
+.desktopContact {
+	display: none;
+}
+
+@media only screen and (min-width: 768px) {
+	.mobileContact {
+		display: none;
+	}
+
+	.desktopContact {
+		display: block;
+	}
+}
