@@ -51,11 +51,45 @@ h2 {
 	font-size: 30px;
 	margin: 50px;
 	border-radius: 30px;
+	border: 4px solid #87c4e8;
 }
 
 .btn-about:hover {
 	cursor: pointer;
-	background-image: linear-gradient(20deg, #54a8d8, #e9486d);
+	background-image: linear-gradient(20deg, #d8a2af, #c2e1f3);
+	color: #f77e9a;
+	border: 4px solid transparent;
+	animation: border 2s linear infinite;
+	animation: text-color 2s linear infinite;
+}
+
+@keyframes border {
+	0% {
+		border-color: #a88890;
+	}
+	25% {
+		border-color: #588fae;
+	}
+	50% {
+		border-color: #7e5760;
+	}
+	100% {
+		border-color: transparent;
+	}
+}
+@keyframes text-color {
+	0% {
+		color: #a88890;
+	}
+	25% {
+		color: #f77e9a;
+	}
+	50% {
+		color: #87c4e8;
+	}
+	100% {
+		color: #7691a1;
+	}
 }
 
 @media only screen and (min-width: 350px) {
