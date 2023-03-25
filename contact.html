@@ -4,6 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/styles.css" />
 		<link rel="stylesheet" href="css/style.css" />
 		<link rel="stylesheet" href="css/nav.css" />
 		<link rel="stylesheet" href="css/main.css" />
@@ -11,6 +12,11 @@
 		<link rel="stylesheet" href="css/footer.css" />
 		<script src="js/nav.js" defer></script>
 		<script src="js/contact.js" defer></script>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+		/>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
 		<title>Beata Marek</title>
 	</head>
 	<body>
@@ -66,11 +72,24 @@
 			<a
 				href="https://www.linkedin.com/in/beata-marek-4b46a3177/"
 				target="_blank"
-				><img class="photo link" src="assets/icons/linkedin.png"
-			/></a>
+			>
+				<i class="fab fa-linkedin photoLink"></i>
+			</a>
+
+			<a href="https://github.com/Beata12" target="_blank">
+				<i class="fab fa-github photoGit"></i>
+			</a>
+
+			<!--<a
+				href="https://www.linkedin.com/in/beata-marek-4b46a3177/"
+				target="_blank"
+				><img class="photo link" src="assets/icons/linkedin.png" />
+				<i class="fa fa-linkedin-square" aria-hidden="true"></i>
+			</a>
 			<a href="https://github.com/Beata12" target="_blank"
-				><img class="photo" src="assets/icons/github.png"
-			/></a>
+				><img class="photo link" src="assets/icons/github.png" />
+			</a>-->
+
 			<div class="container-mail">
 				<h3 class="desktopContact">
 					If you prefer contact via e-mail:
@@ -78,7 +97,19 @@
 				<h3 class="mobileContact">
 					If you prefer contact <br />via e-mail:
 				</h3>
-				<div>
+				<div class="desktopContact">
+					<p>
+						<br />
+						<a
+							class="email"
+							href="https://mail.google.com/"
+							target="_blank"
+							rel="noopener"
+							>beata.marek.94@gmail.com</a
+						>
+					</p>
+				</div>
+				<div class="mobileContact">
 					<p>
 						<br />
 						<a

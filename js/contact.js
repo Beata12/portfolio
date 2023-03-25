@@ -1,6 +1,6 @@
 const text = "Get in touch";
 let index = 0;
-const speed = 200;
+const speed = 180;
 const textAnimation = document.getElementById("typeText");
 
 function type() {
