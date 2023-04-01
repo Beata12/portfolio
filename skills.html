@@ -10,6 +10,11 @@
 		<link rel="stylesheet" href="css/main.css" />
 		<link rel="stylesheet" href="css/contact.css" />
 		<link rel="stylesheet" href="css/footer.css" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/aos@3.0.0-beta.6/dist/aos.css"
+			rel="stylesheet"
+		/>
+		<script src="https://cdn.jsdelivr.net/npm/aos@3.0.0-beta.6/dist/aos.js"></script>
 		<script src="js/nav.js" defer></script>
 		<title>Beata Marek</title>
 	</head>
@@ -36,7 +41,7 @@
 							<a href="about.html">About</a>
 						</li>
 						<li class="nav-link">
-							<a href="skills.html">Skills</a>
+							<a href="skills.html">Projects</a>
 						</li>
 						<li class="nav-link">
 							<a href="contact.html">Contact</a>
@@ -57,13 +62,24 @@
 			</div>
 			<div class="navigation">
 				<a class="nav-link" href="about.html">About</a>
-				<a class="nav-link" href="skills.html">Skills</a>
+				<a class="nav-link" href="skills.html">Projects</a>
 				<a class="nav-link" href="contact.html">Contact</a>
 			</div>
 		</nav>
 		<main>
-			<h1>There are some of my projects:</h1>
-			<div class="project-nav">
+			<h1
+				data-aos="zoom-in-down"
+				data-aos-delay="100"
+				data-aos-duration="2000"
+			>
+				There are some of my projects:
+			</h1>
+			<div
+				class="project-nav"
+				data-aos="fade-right"
+				data-aos-delay="100"
+				data-aos-duration="2000"
+			>
 				<p class="text-center">⇨</p>
 				<a
 					class="project"
@@ -72,7 +88,12 @@
 					>React webpage</a
 				>
 			</div>
-			<div class="project-nav">
+			<div
+				class="project-nav"
+				data-aos="fade-left"
+				data-aos-delay="100"
+				data-aos-duration="2000"
+			>
 				<p class="text-center">⇨</p>
 				<a
 					class="project"
@@ -81,7 +102,12 @@
 					>Memory Game</a
 				>
 			</div>
-			<div class="project-nav">
+			<div
+				class="project-nav"
+				data-aos="fade-right"
+				data-aos-delay="100"
+				data-aos-duration="2000"
+			>
 				<p class="text-center">⇨</p>
 				<a
 					class="project"
@@ -90,7 +116,12 @@
 					>Quiz game</a
 				>
 			</div>
-			<div class="project-nav">
+			<div
+				class="project-nav"
+				data-aos="fade-left"
+				data-aos-delay="100"
+				data-aos-duration="2000"
+			>
 				<p class="text-center">⇨</p>
 				<a
 					class="project"
@@ -99,7 +130,12 @@
 					>Christmas Counter</a
 				>
 			</div>
-			<div class="project-nav">
+			<div
+				class="project-nav"
+				data-aos="fade-right"
+				data-aos-delay="100"
+				data-aos-duration="2000"
+			>
 				<p class="text-center">⇨</p>
 				<a
 					class="project"
@@ -113,5 +149,8 @@
 			<p class="footer-info">Beata Marek</p>
 			<p class="footer-info">2023</p>
 		</footer>
+		<script>
+			AOS.init();
+		</script>
 	</body>
 </html>

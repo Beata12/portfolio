@@ -44,7 +44,7 @@
 								<a href="about.html">About</a>
 							</li>
 							<li class="nav-link">
-								<a href="skills.html">Skills</a>
+								<a href="skills.html">Projects</a>
 							</li>
 							<li class="nav-link">
 								<a href="contact.html">Contact</a>
@@ -57,6 +57,9 @@
 				<div>
 					<a href="index.html">
 						<img
+							data-aos="zoom-out"
+							data-aos-delay="100"
+							data-aos-duration="2000"
 							loading="lazy"
 							src="assets/photos/znak.jpg"
 							alt="zdjęcia"
@@ -65,9 +68,30 @@
 					</a>
 				</div>
 				<div class="navigation">
-					<a class="nav-link" href="about.html">About</a>
-					<a class="nav-link" href="skills.html">Skills</a>
-					<a class="nav-link" href="contact.html">Contact</a>
+					<a
+						data-aos="zoom-right"
+						data-aos-delay="100"
+						data-aos-duration="2000"
+						class="nav-link"
+						href="about.html"
+						>About</a
+					>
+					<a
+						data-aos="zoom-out"
+						data-aos-delay="100"
+						data-aos-duration="2000"
+						class="nav-link"
+						href="skills.html"
+						>Projects</a
+					>
+					<a
+						data-aos="zoom-left"
+						data-aos-delay="100"
+						data-aos-duration="2000"
+						class="nav-link"
+						href="contact.html"
+						>Contact</a
+					>
 				</div>
 			</nav>
 			<main>
@@ -77,32 +101,33 @@
 				</h1>
 				<h1 id="mobileWelcome" class="mobileWelcome"></h1>
 				<img
+					data-aos="fade-right"
+					data-aos-delay="100"
+					data-aos-duration="2000"
 					src="assets/photos/praca.jpeg"
 					alt="zdjęcia"
 					class="photo-main"
 				/>
-				<h2
-					data-aos="fade-up"
-					data-aos-delay="100"
-					data-aos-duration="2000"
-				>
-					My name is Beata!
-				</h2>
+				<h2>My name is Beata!</h2>
 				<p class="description">
 					Would you like to know more about me? Click the button
 					below!
 				</p>
 				<a href="about.html"
-					><button class="btn-about">About me!</button></a
+					><button
+						data-aos="fade-right"
+						data-aos-delay="100"
+						data-aos-duration="2000"
+						class="btn-about"
+					>
+						About me!
+					</button></a
 				>
 			</main>
 			<footer class="footer">
 				<p class="footer-info">Beata Marek</p>
 				<p class="footer-info">2023</p>
 			</footer>
-			<script>
-				AOS.init();
-			</script>
 		</div>
 		<div class="container">
 			<div id="load"></div>
@@ -116,5 +141,8 @@
 			<div id="ball5"></div>
 			<div id="ball6"></div>
 		</div>
+		<script>
+			AOS.init();
+		</script>
 	</body>
 </html>

@@ -10,6 +10,11 @@
 		<link rel="stylesheet" href="css/contact.css" />
 		<link rel="stylesheet" href="css/footer.css" />
 		<link rel="stylesheet" href="css/about.css" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/aos@3.0.0-beta.6/dist/aos.css"
+			rel="stylesheet"
+		/>
+		<script src="https://cdn.jsdelivr.net/npm/aos@3.0.0-beta.6/dist/aos.js"></script>
 		<script src="js/nav.js" defer></script>
 		<title>Beata Marek</title>
 	</head>
@@ -36,7 +41,7 @@
 							<a href="about.html">About</a>
 						</li>
 						<li class="nav-link">
-							<a href="skills.html">Skills</a>
+							<a href="skills.html">Projects</a>
 						</li>
 						<li class="nav-link">
 							<a href="contact.html">Contact</a>
@@ -57,7 +62,7 @@
 			</div>
 			<div class="navigation">
 				<a class="nav-link" href="about.html">About</a>
-				<a class="nav-link" href="skills.html">Skills</a>
+				<a class="nav-link" href="skills.html">Projects</a>
 				<a class="nav-link" href="contact.html">Contact</a>
 			</div>
 		</nav>
@@ -149,8 +154,19 @@
 		</main>
 		<main class="main-desktop">
 			<div>
-				<h1><strong>Who am I?</strong></h1>
-				<h2 class="personal-information">
+				<h1
+					data-aos="flip-up"
+					data-aos-delay="100"
+					data-aos-duration="2500"
+				>
+					<strong>Who am I?</strong>
+				</h1>
+				<h2
+					class="personal-information"
+					data-aos="flip-down"
+					data-aos-delay="100"
+					data-aos-duration="2500"
+				>
 					A passionate-driven future
 					<strong>Front-End Developer</strong> with problem solving
 					skills!
@@ -179,6 +195,9 @@
 						<br />Recently created a website using HTML, Bootstrap
 						CSS, JS and React:<br />
 						<a
+							data-aos="zoom-in-right"
+							data-aos-delay="100"
+							data-aos-duration="1500"
 							class="perosnal-info"
 							target="_blank"
 							href="https://github.com/Beata12/dogspawssion"
@@ -190,6 +209,9 @@
 						<br />Another my projext was memory game wrote in HTML,
 						Bootstrap CSS and JS:<br />
 						<a
+							data-aos="zoom-in-left"
+							data-aos-delay="100"
+							data-aos-duration="1500"
 							class="perosnal-info"
 							target="_blank"
 							href="https://github.com/Beata12/memoryGame"
@@ -198,6 +220,9 @@
 						<br />Also I made knowledge quiz using HTML, Bootstrap
 						CSS, JS and React:<br />
 						<a
+							data-aos="zoom-in-right"
+							data-aos-delay="100"
+							data-aos-duration="1500"
 							class="perosnal-info"
 							target="_blank"
 							href="https://github.com/Beata12/dogspawssion"
@@ -206,7 +231,14 @@
 						<br />
 						For more information click the button below<br />
 						<a href="skills.html">
-							<button class="btn-clickMe">Click me</button></a
+							<button
+								data-aos="zoom-out"
+								data-aos-delay="100"
+								data-aos-duration="1000"
+								class="btn-clickMe"
+							>
+								Click me
+							</button></a
 						>
 					</p>
 					<p class="perosnal-info">
@@ -216,6 +248,9 @@
 				</div>
 				<div class="container-photo">
 					<img
+						data-aos="zoom-out"
+						data-aos-delay="100"
+						data-aos-duration="3000"
 						src="assets/photos/pic.jpg"
 						alt="zdjęcia"
 						class="photo-contact"
@@ -227,5 +262,8 @@
 			<p class="footer-info">Beata Marek</p>
 			<p class="footer-info">2023</p>
 		</footer>
+		<script>
+			AOS.init();
+		</script>
 	</body>
 </html>
