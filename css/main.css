@@ -6,6 +6,30 @@
 	display: block;
 }
 
+.main-mobile {
+	display: block;
+}
+
+.main-desktop {
+	display: none;
+}
+
+.page-header-mobile {
+	display: block;
+}
+
+.page-header-desktop {
+	display: none;
+}
+
+.icons-mobile {
+	display: block;
+}
+
+.icons-desktop {
+	display: none;
+}
+
 h1 {
 	color: black;
 	-webkit-text-stroke-color: rgb(64, 58, 62);
@@ -109,7 +133,31 @@ h2 {
 }
 
 @media only screen and (min-width: 768px) {
+	.main-mobile {
+		display: none;
+	}
+
+	.main-desktop {
+		display: block;
+	}
+
+	.page-header-mobile {
+		display: none;
+	}
+
+	.page-header-desktop {
+		display: block;
+	}
+
 	.main-welcome {
+		display: block;
+	}
+
+	.icons-mobile {
+		display: none;
+	}
+
+	.icons-desktop {
 		display: block;
 	}
 
