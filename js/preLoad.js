@@ -1,4 +1,3 @@
-document.querySelector(".main").style.display = "none";
 document.getElementById("load").classList.add("loader");
 document.getElementById("logo").classList.add("ader");
 document.getElementById("ball").classList.add("circul");
@@ -21,7 +20,9 @@ setTimeout(() => {
 	document.getElementById("ball4").classList.remove("circul4");
 	document.getElementById("ball5").classList.remove("circul5");
 	document.getElementById("ball6").classList.remove("circul6");
-	document.querySelector(".main").style.display = "block";
+	setTimeout(function () {
+		window.location.href = "main.html";
+	});
 }, 4000);
 
 setTimeout(function () {

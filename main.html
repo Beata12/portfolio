@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/nav.css" />
+		<link rel="stylesheet" href="css/main.css" />
+		<link rel="stylesheet" href="css/contact.css" />
+		<link rel="stylesheet" href="css/footer.css" />
+		<link rel="stylesheet" href="css/preLoad.css" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/aos@3.0.0-beta.6/dist/aos.css"
+			rel="stylesheet"
+		/>
+		<script src="https://cdn.jsdelivr.net/npm/aos@3.0.0-beta.6/dist/aos.js"></script>
+		<script src="js/nav.js" defer></script>
+		<script src="js/welcome.js" defer></script>
+		<title>Beata Marek</title>
+	</head>
+	<body>
+		<div class="main">
+			<nav class="navigation-mobile">
+				<div>
+					<a href="main.html">
+						<img
+							src="assets/photos/znak.jpg"
+							alt="zdjęcia"
+							class="logo"
+						/>
+					</a>
+				</div>
+				<div>
+					<div class="hamburger">
+						<div></div>
+						<div></div>
+						<div></div>
+					</div>
+					<div class="menu-mobile">
+						<ul>
+							<li class="nav-link">
+								<a href="about.html">About</a>
+							</li>
+							<li class="nav-link">
+								<a href="skills.html">Projects</a>
+							</li>
+							<li class="nav-link">
+								<a href="contact.html">Contact</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+			<nav class="navigation-desktop">
+				<div>
+					<a href="main.html">
+						<img
+							data-aos="flip-up"
+							data-aos-delay="100"
+							data-aos-duration="2500"
+							loading="lazy"
+							src="assets/photos/znak.jpg"
+							alt="zdjęcia"
+							class="logo"
+						/>
+					</a>
+				</div>
+				<div class="navigation">
+					<a
+						data-aos="flip-right"
+						data-aos-delay="100"
+						data-aos-duration="2000"
+						class="nav-link"
+						href="about.html"
+						>About</a
+					>
+					<a
+						data-aos="flip-down"
+						data-aos-delay="100"
+						data-aos-duration="2500"
+						class="nav-link"
+						href="skills.html"
+						>Projects</a
+					>
+					<a
+						data-aos="flip-left"
+						data-aos-delay="100"
+						data-aos-duration="2000"
+						class="nav-link"
+						href="contact.html"
+						>Contact</a
+					>
+				</div>
+			</nav>
+			<main>
+				<h1 class="main-welcome">
+					<span>W</span> <span>e</span> <span>l</span> <span>c</span>
+					<span>o</span> <span>m</span> <span>e</span>
+				</h1>
+				<h1 id="mobileWelcome" class="mobileWelcome"></h1>
+				<img
+					data-aos="zoom-out-up"
+					data-aos-delay="100"
+					data-aos-duration="2000"
+					src="assets/photos/praca.jpeg"
+					alt="zdjęcia"
+					class="photo-main"
+				/>
+				<h2>My name is Beata!</h2>
+				<p class="description">
+					Would you like to know more about me? Click the button
+					below!
+				</p>
+				<a href="about.html"
+					><button
+						data-aos="flip-down"
+						data-aos-delay="100"
+						data-aos-duration="2000"
+						class="btn-about"
+					>
+						About me!
+					</button></a
+				>
+			</main>
+			<footer class="footer">
+				<p class="footer-info">Beata Marek</p>
+				<p class="footer-info">2023</p>
+			</footer>
+		</div>
+		<script>
+			AOS.init();
+		</script>
+	</body>
+</html>
