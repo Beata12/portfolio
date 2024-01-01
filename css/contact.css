@@ -57,12 +57,16 @@
 }
 
 .social-box {
-	height: 200px;
+	display: none;
 }
 
 @media only screen and (min-width: 768px) {
 	.mobileContact {
 		display: none;
+	}
+
+	.social-box {
+		height: 200px;
 	}
 
 	.desktopContact {
