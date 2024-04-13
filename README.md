@@ -21,6 +21,8 @@ Portfolio is a dynamic and interactive web page designed to showcase my skills, 
 
 Experience my portfolio live and explore my personal journey, showcased projects, and how to get in touch at [Beata Marek Portfolio](https://beata-marek.netlify.app/).
 
+![image](https://github.com/Beata12/portfolio/assets/38575612/e66c3437-c75c-4664-835a-3951fa04a9b7)
+
 ## Getting Started
 
 To view the portfolio on your local machine, you can clone this repository and open the `index.html` file in a web browser.
