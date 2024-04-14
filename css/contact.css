@@ -121,7 +121,7 @@
 
 	.input-desktop {
 		width: 80%;
-		text-align: center;
+		/* text-align: center; */
 		color: rgb(125, 113, 113);
 		border-radius: 30px;
 		border: solid 2px transparent;
@@ -129,6 +129,11 @@
 			linear-gradient(rgb(184, 173, 173), rgb(206, 204, 204));
 		background-origin: border-box;
 		background-clip: content-box, border-box;
+	}
+
+	.input-desktop::placeholder {
+		text-align: center; /* Centers the placeholder text */
+		color: #888; /* Light grey color for the placeholder (change as needed) */
 	}
 
 	.btn-send {
