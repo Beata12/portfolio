@@ -1,4 +1,4 @@
-const contactForm = document.querySelector("#contact-form");
+const contactForm = document.querySelector("#contact-form-desktop");
 const submitBtn = document.querySelector(".submit-btn");
 const nameInput = document.querySelector("#user_name");
 const emailInput = document.querySelector("#user_email");
